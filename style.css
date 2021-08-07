@@ -1,0 +1,19 @@
+/* Ghost element */
+body::before {
+  display: block;
+  content: "";
+  height: 60px;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+/* Breakpoint 768px */
+@media (min-width: 48em) {
+  .news-input {
+    width: 50%;
+  }
+}
